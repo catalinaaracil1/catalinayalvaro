@@ -1,0 +1,27 @@
+decor-naranja {
+    top: 40%;
+    right: 10%;
+    transform: translateY(-50%);
+}
+
+.decor-vaca {
+    bottom: 10%;
+    left: 25%;
+    transform: translateX(-50%);
+}
+
+.decor-gilda {
+    top: 35%;
+    left: 10%;
+    transform: translateY(-50%);
+}
+
+.decor-copa {
+    top: 55%;
+    right: 20%;
+}
+
+.decor-bola {
+    top: 65%;
+    left: 5%;
+}

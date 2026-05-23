@@ -1,0 +1,20 @@
+Hazme una página web tipo de información general de una boda(busca referencias si te hace falta pero nos hemos inspirado parcialmente en esta web https://www.mariayalvaro.com/). Respecto a colores puedes hacer algo similar a los de esta paleta(#962D2E, #D9B991, #A66E4E, #731919, #D9D9D9. Puedes añadir un tono verdoso si crees que puede quedar bien) Queremos una Main Page con una imagen que ocupe casi toda la pantalla de fondo granular (tipo papel con textura beige) con letras superpuestas en granate con la frase:
+
+Un doble en la barra de un bar de Madrid, un paseo por el puerto de Málaga, en la inmensidad de la torre Picasso, o bajo la noche estrellada de Alcalá. Al final todo nos ha llevado aquí, gracias por acompañarnos en este día tan especial.
+
+Debajo de esto queremos unas sección con la información básica de la boda en la que ponga:
+
+Catalina y Álvaro
+20 de marzo de 2027
+Valencia
+
+
+En la parte inferior queremos un menú con 5 apartados:
+-Información del gran día
+-Alojamientos
+-Transporte
+-Recomendaciones de la terreta
+-Info secundaria
+
+Más adelante configuraremos esas páginas, haz que el estilo sea cercano, limpio y con un toque elegante. Pregunta todo lo que necesitas y crea la web en la carpeta "C:\Users\aroar\Documents\web cata"
+

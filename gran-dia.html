@@ -3,22 +3,97 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Información del gran día — Catalina & Álvaro</title>
+    <title>El gran día — Catalina & Álvaro</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body class="subpage">
+
     <header class="subpage-header">
         <a href="index.html" class="back-link">← Volver</a>
         <span class="subpage-title">El gran día</span>
     </header>
-    <main class="subpage-content">
-        <div class="placeholder">
-            <h2>Próximamente</h2>
-            <p>Aquí encontrarás toda la información sobre el gran día: horarios, ceremonia, banquete y más.</p>
-        </div>
+
+    <main>
+
+        <section class="hero-split">
+            <div class="hero-split-text">
+                <h1 class="hero-split-title">El gran día</h1>
+                <p class="hero-split-message">Nos hace especial ilusión que nos acompañéis en el día más importante de nuestras vidas.</p>
+            </div>
+            <div class="hero-split-image">
+                <img src="gran-dia-1.jpeg" alt="El gran día">
+            </div>
+        </section>
+
+        <section class="ceremonia-section">
+            <h2 class="ceremonia-title">Ceremonia</h2>
+            <div class="ceremonia-image">
+                <img src="gran-dia-2.jpeg" alt="Ceremonia">
+            </div>
+            <div class="ceremonia-grid">
+                <div class="ceremonia-card">
+                    <div class="ceremonia-card-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <circle cx="12" cy="12" r="10"/>
+                            <polyline points="12 6 12 12 16 14"/>
+                        </svg>
+                    </div>
+                    <h3 class="ceremonia-card-title">Horario</h3>
+                    <p class="ceremonia-card-text">La misa comenzará a las <strong>13:00h</strong></p>
+                </div>
+                <div class="ceremonia-card">
+                    <div class="ceremonia-card-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
+                            <circle cx="12" cy="10" r="3"/>
+                        </svg>
+                    </div>
+                    <h3 class="ceremonia-card-title">Ubicación</h3>
+                    <p class="ceremonia-card-text">Real Monasterio de Santa María de El Puig<br><span class="ceremonia-note">El monasterio cuenta con parking gratuito</span></p>
+                </div>
+            </div>
+            <div class="map-container">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d0!2d-0.3057107!3d39.5889035!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd6040a1d0c0a503%3A0x1059dd5030acf73!2sReal+Monasterio+de+Santa+Mar%C3%ADa+de+El+Puig!5e0!3m2!1ses!2ses!4v1"
+                    allowfullscreen=""
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"
+                    title="Real Monasterio de Santa María de El Puig">
+                </iframe>
+            </div>
+        </section>
+
+        <section class="celebracion-section">
+            <h2 class="celebracion-title">Celebración</h2>
+            <div class="celebracion-image">
+                <img src="gran-dia-3.jpeg" alt="Celebración">
+            </div>
+            <div class="celebracion-card">
+                <div class="celebracion-card-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
+                        <circle cx="12" cy="10" r="3"/>
+                    </svg>
+                </div>
+                <h3 class="celebracion-card-title">Cartuja de Ara Christi</h3>
+                <p class="celebracion-card-text">Antigua, Carr. de Barcelona, km. 13, 3, 46540 El Puig de Santa Maria, Valencia</p>
+                <p class="celebracion-note">La finca cuenta con parking en la entrada</p>
+            </div>
+            <div class="map-container">
+                <iframe
+                    src="https://www.google.com/maps?q=39.5946,-0.320606&z=16&output=embed"
+                    allowfullscreen=""
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"
+                    title="Cartuja de Ara Christi">
+                </iframe>
+            </div>
+        </section>
+
     </main>
+
 </body>
 </html>

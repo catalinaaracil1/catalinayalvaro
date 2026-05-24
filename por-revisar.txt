@@ -1,0 +1,8 @@
+COSAS POR REVISAR
+
+☐ Poner bien los horarios de los autobuses
+☐ Confirmar código de descuento del hotel
+☐ Añadir sección "Conoce a los testigos"
+☐ Más opciones de hotel (si aplica)
+☐ Nº de cuenta bancaria
+☐ Recomendaciones varias

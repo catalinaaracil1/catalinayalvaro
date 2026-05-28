@@ -854,6 +854,84 @@ body {
     line-height: 1.7;
 }
 
+/* ========== FALLAS SECTION ========== */
+
+.fallas-section .celebracion-section {
+    padding-bottom: 1rem;
+}
+
+/* ========== HOTELES LIST ========== */
+
+.hoteles-section {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 2rem 4rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.hotel-card {
+    background: rgba(255, 255, 255, 0.85);
+    border: 1px solid rgba(166, 110, 78, 0.12);
+    border-radius: 16px;
+    padding: 2rem;
+    transition: all 0.3s ease;
+}
+
+.hotel-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 24px rgba(115, 25, 25, 0.06);
+    border-color: rgba(150, 45, 46, 0.2);
+    background: rgba(255, 255, 255, 0.95);
+}
+
+.hotel-card-title {
+    font-family: 'Caveat', cursive;
+    font-weight: 600;
+    font-size: 1.7rem;
+    color: #731919;
+    margin-bottom: 0.6rem;
+}
+
+.hotel-card .alojamientos-desc {
+    margin-bottom: 1rem;
+}
+
+.hotel-card .alojamientos-codigo {
+    margin-top: 0;
+}
+
+.hotel-link {
+    display: inline-block;
+    margin-top: 0.8rem;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 0.9rem;
+    color: #962D2E;
+    text-decoration: none;
+    border-bottom: 1px solid rgba(150, 45, 46, 0.3);
+    transition: all 0.3s ease;
+}
+
+.hotel-link:hover {
+    color: #731919;
+    border-bottom-color: #731919;
+}
+
+/* ========== CONTACT NOTE ========== */
+
+.contact-section {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 0 2rem 5rem;
+    text-align: center;
+}
+
+.contact-section .celebracion-card {
+    max-width: 100%;
+}
+
 /* ========== RESPONSIVE ========== */
 
 @media (max-width: 768px) {
